@@ -1,0 +1,655 @@
+@font-face{
+    font-family: 'Metropolis';
+    src: url(../fonts/Metropolis-Regular.otf);
+}
+
+
+
+body {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+
+/*==================== navbar section =========================*/
+
+li.nav-item.dropdown:hover > .dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu.show {
+    display: none;
+}
+
+.site_logo_mobile {
+    display: none;
+}
+
+.navbar-toggler {
+    border: 1px solid #000 !important;
+    }
+
+nav .navbar-nav li{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    color: #474C79;
+    font-size: 16px;    
+    }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 15px;
+    color:  #474C79;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #474C79;
+}
+
+.nav-item img {
+    height: 40px;
+    margin-left: 7px;
+    width: auto;
+}
+
+nav.navbar {
+    /*background: #f6f9ff;*/
+    padding: 15px;
+}
+
+
+@media (min-width:992px) and (max-width:1920px){
+    .scrolled {
+        background-color: #fff !important;
+    }    
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1824px){
+
+    }
+
+/*==================== navbar section end =========================*/
+
+
+
+/*==================== home page all css =========================*/
+
+.banner_head {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    color: #313133;
+    font-size: 58px;
+    line-height: 68px;
+    margin-top: 50px;
+    display: block;
+    text-align: left;
+}
+
+.use_paddbotm {
+    margin-bottom: 25px;
+}
+
+.banner_body p {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #474C79 !important;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.about_head_margin .about_head {
+    display: inline-block;margin-bottom: 30px;
+}
+
+.about_head {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    color: #313133 !important;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.about_body_head {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #313133;
+    font-size: 16px;
+}
+
+.about_body_inner {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #313133;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5px 0;
+}
+
+
+.input-group {
+    border: 1px solid #8C8E9B;
+    border-radius: 5px;
+}
+
+.input-group .form-control {
+    height: 60px;
+    border: 0;
+}
+
+.input-group .btn {
+    height: 60px;
+    background-color: #009CDC;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    color: #fff !important;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.resource_head {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    color: #313133 !important;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.footer_line {
+    margin-top: 65px;
+}
+
+
+/*==================== home page all css end =========================*/
+
+
+/*==================== bnr section =========================*/
+
+section.bnr {
+    position: relative;
+    display: flex;
+    height: 250px;
+   
+    padding-top: 150px;
+    color: #f6f9ff;
+}
+
+.bg_pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 290px;
+}
+
+.bg_pic img {
+    width: 50%;
+    float: right;
+}
+
+.bnr_text i.fas {
+    background: #079cda;
+    border: 3px solid#079cda;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.bnr_text {
+    display: inline-block;
+    background: #273c7f;
+    border: 2px solid#273c7f;
+    border-radius: 20px;
+}
+
+.bnr_text span {
+    padding-right: 12px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bnr p {
+    text-align: right;
+    color: #1d293f;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/*==================== bnr section end =========================*/
+
+
+/*==================== about section =========================*/
+
+section.about {
+    max-width: 1247px;
+    padding: 30px 0px 40px 75px;}
+
+.about_right img {
+    width: 100%;
+}
+
+.icon {
+    padding-bottom: 15px;
+}
+
+.about_left p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    padding-top: 12px;
+}
+
+a.button {
+    text-decoration: none;
+    background: #243a7d;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 12px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+/*==================== about section end =========================*/
+
+/*==================== client section =========================*/
+
+section.client {
+    margin-bottom: 40px;
+}
+
+.client_right ul {
+    padding: 0;
+}
+
+.client_right li {
+    list-style: none;
+}
+
+.client_right i.fas {
+    background: #fff;
+    color: #0799d7;
+    margin-right: 4px;
+}
+
+.client_right span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #575757;
+}
+
+
+
+.client_butn a.button:first-child {
+    margin-right: 8px;
+    border: 1px solid#0799d7;
+}
+
+.client_butn a.button:last-child {
+    color: #243a7d;
+    background: #fff;
+    border: 1px solid#243a7d;
+}
+
+.client_left img {
+    width: 100%;
+}
+
+.client_left {width: 80%;}
+
+/*==================== client section end =========================*/
+
+/*==================== footer =========================*/
+
+.footer_back{
+    background-color: #1D293F;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.footer_detail{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #8C97AC;
+    font-size: 16px;
+    line-height: 28px;
+}
+.footer_head{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #8C97AC;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: block;
+}
+.footer_menu_options{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #E9F7FE;
+    font-size: 16px;
+    /*margin-bottom: 16px;*/
+    display: block;
+    text-decoration: none;
+}
+.footer_menu_options a{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #E9F7FE;
+    font-size: 16px;
+    line-height: 42px;
+    text-decoration: none;
+}
+.footer_menu_options a:hover{
+    color: #009CDC;
+    transition: 0.3s;
+}
+.footer_phone_mail{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #009CDC ;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.footer_phone_mail a{
+    color: #009CDC;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer_line{
+    width: 100%;
+    border: 1px solid #313D55;
+}
+.Rights_Reserved{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    color: #8C97AC;
+    font-size: 13px;
+    line-height: 28px;
+}
+.footer_icon a {
+    width: 16px;
+    height: 16px;
+    color: white;
+}
+
+.footer_logo {
+    padding-bottom: 45px;
+}
+
+
+button.ask_question {
+    background: #009cdc;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid#009cdc;
+    font-weight: 400;
+    font-size: 15px;
+    width: 40%;
+    padding: 12px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_right img {
+    width: 100%;
+}
+
+.contact_left h1 {
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.contact_left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin-bottom: 40px;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.d_flex-use {
+    padding: 10px 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right_cont {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.left_cont {
+    display: flex;
+    justify-content: flex-start;
+    flex: 2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    align-items: center;
+}
+
+.left_cont img {
+    width: 19px;
+    height: 21px;
+    margin-right: 12px;
+}
+
+.right_cont i.fa {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.mar_butn50 {
+    margin-bottom: 50px;
+}
+
+
+/*==================== Value section =========================*/
+
+
+.Value_part p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    padding-top: 12px;
+    text-align: center;
+}
+
+section.Value_part {
+    padding: 70px 0;
+    background: #e9ecef;
+}
+
+.use_margin {
+    margin-bottom: 30px;
+}
+
+.left_part_inner {
+    display: flex;
+    margin: 30px 0;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.text p {
+    text-align: left;
+    padding-top: 0;
+    margin-bottom: 35px;
+}
+
+.upper_margin {
+    margin-top: 60px;
+}
+
+
+.mobilepic1_section img {
+    width: 100%;
+    margin-top: -45px;
+}
+
+section.mobilepic_section {
+    margin: 75px 0;
+}
+
+.mobilepic1_right .client_right i.fas {
+    background: #e1f3fa;
+    color: #0799d7;
+    margin-right: 4px;
+    font-size: 24px;
+    border: 12px solid#e1f3fa;
+    border-radius: 50%;
+}
+
+.mobilepic1_left img {
+    width: 100%;
+    margin-top: -40px;
+}
+
+.mobilepic1_right .client_butn a.button {
+    color: #fff;
+    background: #243a7d;
+    border: 1px solid#0799d7;
+    border-radius: 6px;
+}
+
+.mobilepic1_right .client_right li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+.sidebar_sec {
+    margin-top: 120px;
+    background: #039ddd;
+    padding: 0 15px 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.icon_edit {
+    text-align: center;
+}
+
+.sidebar_sec .icon_edit i.fas {
+    border: 14px solid#000;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 32px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.sidebar_sec h2 {
+    font-size: 24px;
+    padding: 35px 0 10px;
+}
+
+.sidebar_sec ul {
+    padding: 0;
+}
+
+.sidebar_sec li {
+    list-style: none;
+    padding: 10px 15px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.sidebar_sec a {
+    color: #fff;
+    text-decoration-color: #fff;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+
+.sidebar_sec i.fas {
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border: 2px solid#fff;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+
+.mar_butn50all {
+    margin: 50px 0;
+}
+
+
+
+.about_left .Privacy_head1 p {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.about_left .Privacy_head2 p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.about_left .Privacy_head3 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.about_left li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    padding-top: 8px;
+}
+
+
+

@@ -1,0 +1,536 @@
+   
+@media (min-device-width: 770px) and (max-device-width: 1200px){
+         .banner_body p{
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .app_icon{
+            width: 419px;
+            height: 60px;
+            float: left;
+        }
+        .meet_clients_second{
+            margin-top: 80px;
+        }
+        .footer_line{
+            margin-top: 25px;
+        }
+        .footer_back{
+            height: auto;
+            padding: 50px 25px 10px 25px;
+        }
+
+        button.ask_question {
+            font-size: 13px;
+        }
+
+        section.contact_sec {
+            margin-bottom: 40px;
+        }
+
+}
+
+@media (min-width:993px) and (max-width:1200px){
+
+        .about_left h1 {
+            font-size: 31px;
+            margin-bottom: 0px;
+        }
+
+        a.button {
+            width: 45%;
+        }
+
+        .meet_clients_second .col-sm-5.text-sm-left img {
+            width: 160px;
+            height: 35px !important;
+        }
+
+        .jumbotron-fluid .col-sm-4.text-sm-left img {
+            width: 160px;
+            height: 35px !important;
+        }
+
+        .middle_part img {
+            width: 100%;
+        }
+
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .meetclient_image img{
+        margin-top: 100px !important;
+    }
+    nav .navbar-nav li a{
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 20px !important;
+        }
+    .jumbotron-fluid{
+        height: 644px !important;
+    }
+
+
+    .contact_left h1 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .contact_left p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .card-body {
+        padding: 10px 24px;
+    }
+
+    .contact_left .card-body p {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+
+    .left_cont {
+        font-size: 15px;
+    }
+
+
+    /* home page css */
+
+
+    .banner_head {
+        font-size: 46px;
+        line-height: 50px;
+        margin-top: 30px;
+    }
+
+    .banner_body p {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .jumbotron-fluid .col-sm-4.text-sm-left img {
+        width: 100%;
+        height: 40px !important;
+    }
+
+    .about_head {
+        font-size: 36px;
+        line-height: 41px;
+    }
+
+    .resource_head{
+        font-size: 36px;
+        line-height: 41px; 
+    }
+
+    .input-group .btn {
+        font-size: 14px;
+    }
+
+    .about_body_head{
+    font-size: 17px;
+    line-height: 18px;
+    }
+    .about_body_inner{
+    font-size: 15px;
+    line-height: 19px;
+    }
+
+
+    .meet_clients_second .col-sm-5.text-sm-left img {
+        width: 100%;
+        height: 40px !important;
+    }
+
+    /* ================== our story ===================*/
+    .Value_part h1 {
+        font-size: 32px;
+    }
+    .text h4 {
+        font-size: 20px;
+    }
+    .middle_part img {
+        width: 100%;
+    }
+    .left_part_inner {
+        margin: 10px 0;
+    }
+    .text p {
+        margin-bottom: 15px;
+    }
+
+    /* =========resource all css=========*/
+
+    .sidebar_sec .icon_edit i.fas {
+        border: 11px solid#000;
+        background: #000;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 30px;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    .sidebar_sec h2 {
+        font-size: 15px;
+    }
+
+    .sidebar_sec {
+        padding: 0 10px 20px;
+    }
+
+    .sidebar_sec a {
+        font-size: 13px;
+    }
+
+    .sidebar_sec i.fas {
+        height: 25px;
+        width: 25px;
+        padding: 4px 3px;
+        font-size: 12px;
+    }
+
+    /* ==========footer all css============*/
+
+    .footer_menu_options {
+        font-size: 14px;
+    }
+
+    .footer_phone_mail {
+        font-size: 14px;
+    }
+
+    .footer_menu_options a {
+        font-size: 13px;
+    }
+
+    .footer_head {
+        font-size: 17px;
+    }
+
+    .footer_detail {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    
+}
+@media (min-width:320px) and (max-width:991px){
+    .site_logo_mobile{
+            display: block;
+            width: 100px;
+        }
+    .navbar {
+        background-color: #1c2331 !important;
+        }
+    .navbar-toggler {
+        border: 1px solid #fff !important;
+        }
+        nav .navbar-nav li a{
+            font-family: 'Metropolis';
+            font-style: normal;
+            font-weight: 500;
+            color: #fff !important;
+            font-size: 17px;
+            text-align: left;
+            }
+            .site_logo{
+                display: none;
+            }
+
+            nav .navbar-nav li:first-child {
+            padding-top: 12px;
+        }
+
+        .nav-flex-icons li.nav-item {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        ul.navbar-nav.ml-auto {
+            text-align: center;
+        }
+
+        ul.navbar-nav.nav-flex-icons {
+            text-align: center;
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding: 7px 0;
+            font-weight: 500;
+        }
+
+        .navbar-nav .dropdown-menu {
+            background: transparent;
+            text-align: center;
+            border: navajowhite;
+        }
+
+        .about .row {
+            margin: 0;
+        }
+
+        .bg_pic {
+            height: 415px;
+        }
+
+        section.bnr {
+            height: 415px;
+        }
+
+        .bg_pic img {
+            width: 100%;
+        }
+
+        .about_left h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .about_left p {
+            font-size: 11px;
+            margin-bottom: 10px;
+        }
+
+        a.button {
+            width: 150px;
+            margin: 0;
+            height: 38px;
+            padding: 10px 0px;
+        }
+
+        .icon img {
+            width: 20%;
+        }
+
+        .icon {
+            padding-bottom: 10px;
+        }
+
+        .client_right span {
+            font-size: 10px;
+        }
+
+        .client_right i.fas {
+            margin-right: 2px;
+            font-size: 12px;
+        }
+
+        .client_left {
+            margin-top: 45px;
+        }
+
+
+        button.ask_question {
+            width: 150px;
+        }
+
+
+                
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /* index page all css start */
+
+    .about_body_head {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 400;
+        color: #313133;
+        font-size: 16px;
+        display: inline-block;
+        width: 100%;
+        padding: 0 12px;
+    }
+    .container {
+        text-align: center;
+    }
+    .resource_head {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .about_head {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 25px;
+        display: block;
+    }
+    .app_icon {
+        margin-bottom: 30px;
+    }
+    .banner_body p {
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+    .banner_head {
+        font-size: 39px;
+        line-height: 49px;
+        text-align: center;
+        margin: 12px 0;
+        display: inline-block;
+    }
+    .sign_up_button {
+        margin-bottom: 30px;
+    }
+    .log_in_button {
+        margin-bottom: 30px;
+    }
+    .about_head_margin {
+        margin-top: 106%;
+    }
+    .sub_pic {
+        margin-left: 8px !important;
+        margin-top: 16px !important;
+    }
+    input.form-control {
+        font-size: 14px;
+    }
+    .input-group .btn {
+        font-size: 13px;
+        height: 50px;
+    }
+    .input-group .form-control {
+        height: 50px;
+        font-size: 14px;
+    }
+    /* index page all css start */
+    ul.navbar-nav.ml-auto {
+        text-align: center;
+    }
+    ul.navbar-nav.nav-flex-icons {
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 7px 0;
+        font-weight: 500;
+    }
+    .navbar-nav .dropdown-menu {
+        background: transparent;
+        text-align: center;
+        border: navajowhite;
+    }
+    section.bnr {
+        height: 300px;
+    }
+    .bg_pic img {
+        width: 100%;
+    }
+    .bnr p {
+        font-size: 20px;
+        text-align: left;
+        padding-top: 9px;
+        font-weight: 500;
+        text-align: center;
+    }
+    section.about {
+        padding: 30px 15px;
+    }
+    .about_left h1 {
+        font-size: 24px;
+    }
+    a.button {
+        width: 150px;
+    }
+    .about_left {
+        margin-bottom: 25px;
+    }
+    .col-sm-6.p-0 {
+        padding: 0 15px !important;
+        width: 98%;
+        margin: 0;
+    }
+    .client_left {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    /* =========== our story all css =================*/
+    .middle_part img {
+        width: 100%;
+    }
+    .client_butn a.button:first-child {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    section.client {
+        margin-bottom: 10px;
+    }
+    section.Value_part {
+        padding: 40px 0;
+    }
+    section.Value_part h1 {
+        font-size: 30px;
+    }
+    .upper_margin {
+        margin-top: 25px;
+    }
+    .use_margin {
+        margin-bottom: 10px;
+    }
+    .left_part_inner {
+        margin: 0;
+    }
+    
+    /* =========== our story all css =================*/
+    button.ask_question {
+        width: 160px;
+    }
+    .text-sm-left {
+        margin-bottom: 15px;
+    }
+    .footer_menu_options a {
+        font-size: 14px;
+    }
+    .footer_menu_options {
+        font-size: 14px;
+    }
+    .footer_detail {
+        font-size: 15px;
+    }
+    /* ============ contact page section ============*/
+    .contact_left h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .contact_left p {
+        font-size: 15px;
+    }
+    .left_cont {
+        font-size: 13px;
+    }
+    .left_cont img {
+        margin-right: 4px;
+    }
+    .contact_left .card-body p {
+        font-size: 13px;
+    }
+    .bs-example {
+        margin-bottom: 22px;
+    }
+
+
+
+    .mobilepic1_right {
+        margin-top: 15px;
+    }
+
+    section.mobilepic_section {
+        margin: 0px 0;
+    }
+
+    .sidebar_sec {
+        margin-top: 60px;
+        margin-left: 15px;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+    }
+}
