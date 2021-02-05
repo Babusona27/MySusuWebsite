@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header';
 // import Banner from '../components/Banner';
 import Footer from '../components/Footer';
-// import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 // import { EVENT_LIST } from '../api/ApiConfig';
 import { motion } from "framer-motion"
 export default class Resources extends React.Component {
@@ -21,11 +21,10 @@ export default class Resources extends React.Component {
     }
 
 
-
     render() {
         return (
 
-            <motion.div exit={{ opacity: 0 }}>
+            <div>
                 <Header />
                 <section className="bnr">
                 <div className="container">
@@ -62,7 +61,8 @@ export default class Resources extends React.Component {
                                                 <p> At My Susu Inc building community and financial education are some of our most important values.  We are committed to providing financial tools both tangible and intangible through our community forums and physical tools that you can use to make informed financial decisions every day.</p>
                                                 
                                                 <div className="client_butn">
-                                                    <a href="General_Lone.html" className="button"> Learn More</a>
+                                                <Link to={{ pathname: '/general_lone' }} className="button">Learn More</Link>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -80,7 +80,8 @@ export default class Resources extends React.Component {
                                                 <p> At My Susu Inc building community and financial education are some of our most important values.  We are committed to providing financial tools both tangible and intangible through our community forums and physical tools that you can use to make informed financial decisions every day. </p>
                                                
                                                 <div className="client_butn">
-                                                    <a href="General_College.html" className="button"> Learn More</a>
+                                                   
+                                                    <Link to={{ pathname: '/general_college' }} className="button">Learn More</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -99,8 +100,14 @@ export default class Resources extends React.Component {
                                 <div className="icon_edit"> <i className="fas fa-edit"></i></div>
                                 <h2> Resources List</h2>
                                 <ul>
-                                    <li><span><i className="fas fa-check"></i></span> <a href="General_College.html">  General College Savings Worksheet</a></li>
-                                    <li><span><i className="fas fa-check"></i></span> <a href="General_Lone.html"> General Loan Amortization Worksheet </a></li>							
+                                    <li><span><i className="fas fa-check"></i></span> 
+                                  
+                                    <Link to={{ pathname: '/general_college' }} > General College Savings Worksheet</Link>
+                                    </li>
+                                    <li><span><i className="fas fa-check"></i></span> 
+                                  
+                                    <Link to={{ pathname: '/general_lone' }} >General Loan Amortization Worksheet</Link>
+                                    </li>							
                                 </ul>
                             </div>
                         </div>
@@ -114,8 +121,9 @@ export default class Resources extends React.Component {
 
 
 
-                </motion.div> 
+            </div>
         )
     }
 }
+
 

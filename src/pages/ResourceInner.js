@@ -22,10 +22,11 @@ export default class ResourceInner extends React.Component {
 
 
 
+
     render() {
         return (
 
-            <motion.div exit={{ opacity: 0 }}>
+            <div>
                 <Header />
                 <section className="bnr">
                 <div className="container">
@@ -88,8 +89,9 @@ export default class ResourceInner extends React.Component {
 
 
 
-                </motion.div> 
+            </div>
         )
     }
 }
+
 

@@ -37,19 +37,9 @@ export default class Header extends React.Component {
                                 <Link to={{ pathname: '/' }} className="nav-link dropdown-toggle" style={{ color: '#474C79' }}>Who We Are</Link>
                                 <div className="dropdown-menu show">
                                     {/* <a href="Who_we_are.html" className="dropdown-item"> Out Story</a> */}
-                                    <Link onClick={()=>{
-                                         window.scrollTo({
-                                            top:0,
-                                            behavior:'smooth'
-                                        })
-                                    }} to={{ pathname: '/who_we_are',query:{position:1} }} className="dropdown-item">Our Story</Link>
+                                    <Link  to={{ pathname: '/who_we_are' }} className="dropdown-item">Our Story</Link>
                                     {/* <a href="Who_we_are.html#our_values" className="dropdown-item"> Our Values</a> */}
-                                    <Link onClick={()=>{
-                                        window.scrollTo({
-                                            top:1100,
-                                            behavior:'smooth'
-                                        })
-                                    }} to={{ pathname: '/who_we_are',query:{position:2}  }} className="dropdown-item">Our Values</Link>               
+                                    <Link  to={{ pathname: '/our_valus'  }} className="dropdown-item">Our Values</Link>               
                                 </div>
                             </li>
                             <li className="nav-item">
@@ -57,8 +47,8 @@ export default class Header extends React.Component {
                                 <Link to={{ pathname: '/resources' }} className="nav-link" style={{ color: '#474C79' }}>Resources</Link>
                             </li>
                             <li className="nav-item">
-                                <a style={{ color: '#474C79' }} className="nav-link" href="#">Community</a>
-                                {/* <Link to={{ pathname: '/' }} className="nav-link" style={{ color: '#474C79' }}>Community</Link> */}
+                               
+                                <Link to={{ pathname: '/community' }} className="nav-link" style={{ color: '#474C79' }}>Community</Link>
                             </li>
                             <li className="nav-item">
                                 {/* <a style={{ color: '#474C79' }} className="nav-link" href="faq.html">FAQ</a> */}

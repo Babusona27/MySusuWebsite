@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header';
 // import Banner from '../components/Banner';
 import Footer from '../components/Footer';
-// import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 // import { EVENT_LIST } from '../api/ApiConfig';
 import { motion } from "framer-motion"
 export default class GeneralLone extends React.Component {
@@ -21,11 +21,10 @@ export default class GeneralLone extends React.Component {
     }
 
 
-
     render() {
         return (
 
-            <motion.div exit={{ opacity: 0 }}>
+            <div>
                 <Header />
                 <section className="bnr">
                 <div className="container">
@@ -49,15 +48,17 @@ export default class GeneralLone extends React.Component {
                     <div className="row">
                         <div className="col-sm-6"> 
                             <div className="mobilepic1_left"> 
-                                <img src="assets/images/Phone_Mockup2.png" alt="" width="100%" />
+                                <img src="assets/images/susuimg2.jpg" alt="" width="100%" />
                             </div>
                         </div>
                         <div className="col-sm-6"> 
                             <div className="mobilepic1_right"> 
                                 <div className="client_right about_left">
                                     <h1> General Loan Amortization Worksheet</h1>
-                                    <p> You are welcome to browse through the tools available on our website at www.susuinc.com/resources, there may also be more helpful tools and or conversations that you can find through the Community portion of our website at www.susuinc.com/community and/or our social media platforms.	</p>
-                                   							
+                                    {/* My Susu Inc - Loan Amortization Worksheet.xlsx */}
+                                    <Link to='assets/files/My Susu Inc - Loan Amortization Worksheet.xlsx' target="_blank" download>
+                                        <p className="butn"> Download</p>
+                                    </Link>						
                                 </div>
                             </div>
                         </div>
@@ -85,8 +86,12 @@ export default class GeneralLone extends React.Component {
                 <Footer />
                 {/* <!--end footer--> */}
 
-                </motion.div> 
+
+
+
+            </div>
         )
     }
 }
+
 

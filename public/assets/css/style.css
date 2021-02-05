@@ -23,7 +23,6 @@ li.nav-item.dropdown:hover > .dropdown-menu.show {
 .dropdown-menu.show {
     display: none;
 }
-
 .site_logo_mobile {
     display: none;
 }
@@ -216,7 +215,8 @@ section.bnr {
 }
 
 .bnr_text span {
-    padding-right: 12px;
+    padding-left: 8px;
+    padding-right: 10px;
     display: inline-block;
     color: #fff;
     font-weight: 500;
@@ -272,6 +272,22 @@ a.button {
 
 section.client {
     margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.client h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+.client p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    padding-top: 12px;
 }
 
 .client_right ul {
@@ -309,11 +325,240 @@ section.client {
 
 .client_left img {
     width: 100%;
+    position: relative;
 }
 
-.client_left {width: 80%;}
+.client_left {
+    width: 90%;
+}
+
+.client h2.second_head {
+    margin: 20px 0 50px;
+}
+
+.client_left .usehead_posi1 {
+    position: absolute;
+    top: 162px;
+    left: 154px;
+    font-weight: 400;
+}
+
+.client_left .usehead_posi2 {
+    position: absolute;
+    top: 98px;
+    right: 140px;
+    font-weight: 400;
+}
+
+
+
+img.mainpic {
+    position: relative;
+    width: 100%;
+}
+
+h5.upper_text {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 52px;
+    top: 32px;
+    font-size: 12px;
+}
+
+.shape1_inner {
+    display: inline-block;
+    width: 100%;
+}
+
+ul.use_after1 {
+    float: left;
+    width: 22%;
+}
+ul.use_after2 {
+    float: left;
+    width: 22%;
+    margin-top: -35px;
+    margin-left: -17px;
+}
+
+ul.use_after3 {
+    float: left;
+    width: 22%;
+    margin-top: 0px;
+    margin-left: -17px;
+}
+ul.use_after4 {
+    float: left;
+    width: 22%;
+    margin-top: 35px;
+    margin-left: -17px;
+}
+ul.use_after5 {
+    float: left;
+    width: 23%;
+    margin-top: 0px;
+    margin-left: -16px;
+}
+
+.use_after1 li {
+    width: 100%;
+}
+
+
+
+p.btn.btn-primary {
+    font-size: 14px;
+    color: #fff;
+    background: #4372c4;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    width: 63px;
+}
+
+.client p.change_font {
+    font-size: 14px;
+    margin: 0 80px 35px;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background: transparent;
+}
+
+.change_align {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 0 30px;
+}
+
+.change_align button {
+    width: 20%;
+    height: 50px;
+    background: #253b80;
+    border-color: #253b80;
+}
+
+.btn-primary:hover {
+    background: #253b80;
+}
+
+.side_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+#square {
+    position: relative;
+    width: 66px;
+    height: 62px;
+    background: #4372c4;
+    margin-left: 20px;
+}
+#square:before{
+    content:'';
+    top:0px;
+    left: 66px;
+    width: 0;
+    height: 0;
+    border-bottom: 31px solid transparent;
+    position: absolute;
+    border-top: 32px solid transparent;
+    border-left: 33px solid #4372c4;
+    border-bottom: 31px solid transparent;
+}
+#square:after{
+    content:'';
+    top:0px;
+    left: -32px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 32px solid transparent;
+    border-right: 32px solid #4372c4;
+    border-bottom: 31px solid transparent;
+}
 
 /*==================== client section end =========================*/
+
+/*----------------------start contact-----------------------*/
+.contact_info li a{
+    color:#000000;
+    }
+    .contact_info li{
+    display:block;
+    margin:40px 0;
+    font-size:24px;
+    color:#000000;
+    }
+    .contact_info{
+    margin:0;
+    padding:0;
+    list-style-type:outside none none;
+    }
+    .contact_info span {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 20px;
+    }
+    .contact_sec{
+    padding:50px 0;
+    }
+    .con_form label{
+    color:#161616;
+    font-size:15px;
+    display:block;
+    margin:20px 0 0 0;
+    }
+    .con_form input[type=text], .con_form input[type=email]{
+    font-size: 14px;
+    color: #a9a9a9;
+    height:50px;
+    border-bottom: 1px solid #ebebeb;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    padding:15px;
+    border-right:none ;
+    margin:10px 0;
+    text-align:left;
+    }
+    .con_form textarea{
+    font-size: 14px;
+    color: #a9a9a9;
+    border-bottom: 1px solid #ebebeb;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    margin:10px 0;
+    padding:15px;
+    }
+    .con_form input[type="submit"] {
+    font-size: 14px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #243a7d;
+    padding: 15px 25px;
+    border: none;
+    margin: 15px 0 0 0;
+    }
+    .contact_info li img {
+    float: left;
+    display: block;
+    }
+    
 
 /*==================== footer =========================*/
 
@@ -370,6 +615,7 @@ section.client {
     font-size: 16px;
     line-height: 28px;
     text-decoration: none;
+    display: block;
 }
 .footer_phone_mail a{
     color: #009CDC;
@@ -395,7 +641,12 @@ section.client {
 }
 
 .footer_logo {
-    padding-bottom: 45px;
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.icon img {
+    width: 70px;
 }
 
 
@@ -437,7 +688,7 @@ button.ask_question {
     font-size: 16px;
     font-weight: 400;
     color: #575757;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .card-header {
@@ -494,8 +745,8 @@ button.ask_question {
 }
 
 section.Value_part {
-    padding: 70px 0;
-    background: #e9ecef;
+    padding: 30px 0;
+    background: #fff;
 }
 
 .use_margin {
@@ -504,11 +755,17 @@ section.Value_part {
 
 .left_part_inner {
     display: flex;
-    margin: 30px 0;
+    margin: 8px 0 20px;
 }
 
 .text {
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.left_part .text p {
+    text-align: left;
+    padding-top: 0;
+    margin-bottom: 0px;
 }
 
 .text p {
@@ -558,6 +815,24 @@ section.mobilepic_section {
 }
 
 
+.client_right.about_left p.butn {
+    display: inline-block;
+    background: #009cdc;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid#009cdc;
+    font-weight: 400;
+    font-size: 15px;
+    width: 30%;
+    padding: 12px 0;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.middle_part img {
+    width: 100%;
+}
 
 
 

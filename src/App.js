@@ -9,15 +9,17 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import GeneralCollege from './pages/GeneralCollege'
 import GeneralLone from './pages/GeneralLone'
 import Faq from './pages/Faq'
+import Tarms from './pages/Tarms'
+import OurValus from './pages/OurValus'
+import Community from './pages/Community'
+import ContactUs from './pages/ContactUs'
 import {  BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { AnimatePresence } from "framer-motion";
+
 export default class App extends React.Component {
 render(){
     return (
       <main>
-         <AnimatePresence exitBeforeEnter>
-        {/* <Router basename={'/my_susu'}> */}
-        <Router >
+        <Router>
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
@@ -28,13 +30,15 @@ render(){
             <Route path="/general_college" component={GeneralCollege} />
             <Route path="/general_lone" component={GeneralLone} />
             <Route path="/faq" component={Faq} />
+            <Route path="/tarms" component={Tarms} />
+            <Route path="/our_valus" component={OurValus} />
+            <Route path="/community" component={Community} />
+            <Route path="/contact_us" component={ContactUs} />
             <Route path="*">
               <div>404 not found....</div>
             </Route>
           </Switch>
-          
         </Router>
-        </AnimatePresence>
       </main>
     )  
 }
