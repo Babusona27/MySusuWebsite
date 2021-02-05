@@ -16,8 +16,8 @@ render(){
     return (
       <main>
          <AnimatePresence exitBeforeEnter>
-        <Router basename={'/my_susu'}>
-       
+        {/* <Router basename={'/my_susu'}> */}
+        <Router >
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
