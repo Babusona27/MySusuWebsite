@@ -48,8 +48,9 @@ export default class WhoWeAre extends React.Component {
                     <div className="col-sm-6"> 
                         <div className="about_left">
                             <div className="icon"> <img src="assets/images/icon_1.png" alt="" /></div>
-                            <h1> Savings Within Reach</h1>
-                            <p> Our Mission is to create a community of friends and family who provide a reliable financial network where everyone can meet their financial goals and become more financially empowered.</p>
+                            {/* <h1> Savings Within Reach</h1>
+                            <p> Our Mission is to create a community of friends and family who provide a reliable financial network where everyone can meet their financial goals and become more financially empowered.</p> */}
+                            <p>As a founding team of West African heritage our team grew up seeing “Susu” utilized by our parents, family, community groups, friends and more. We have seen “Susu” used to build homes, pay for educational expenses, build community infostructure, family planning, vacations and so much more. Susu is a community savings method that is used throughout West Africa and across the Globe. Access to traditional financial systems are limited in many countries and wherever there is a need or underserved community of people, people learn to innovate and find methods of empowering each other. Around the globe “Susu”, which is known by many different names is sometimes the only method of providing a flow of cash flow that allows people to meet long and short-term savings goals.</p>
                             {/* <a href="#" className="button"> Get Started Now</a> */}
                         </div>
                     </div>

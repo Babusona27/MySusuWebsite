@@ -48,7 +48,7 @@ export default class GeneralLone extends React.Component {
                     <div className="row">
                         <div className="col-sm-6"> 
                             <div className="mobilepic1_left"> 
-                                <img src="assets/images/susuimg2.jpg" alt="" width="100%" />
+                                <img src="assets/images/susuimg1.jpg" alt="" width="100%" />
                             </div>
                         </div>
                         <div className="col-sm-6"> 

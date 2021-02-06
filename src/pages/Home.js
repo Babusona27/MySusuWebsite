@@ -213,7 +213,7 @@ export default class Home extends React.Component {
           <div class="row">
              <div class="col-sm-6">
                 <div class="blog_background">
-                   <img class="img-fluid" src="assets/images/susuimg1.jpg" alt=""></img>
+                <img class="img-fluid" src="assets/images/susuimg2.jpg" alt=""></img>
                    <br />
                    <br />
                    <p style={{textAlign: 'left'}}><span class="about_body_head">General College Savings Worksheet</span></p>
@@ -223,7 +223,8 @@ export default class Home extends React.Component {
              </div>
              <div class="col-sm-6">
                 <div class="blog_background">
-                   <img class="img-fluid" src="assets/images/susuimg2.jpg" alt=""></img>
+                <img class="img-fluid" src="assets/images/susuimg1.jpg" alt=""></img>
+                   
                    <br />
                    <br />
                    <p style={{textAlign: 'left'}}><span class="about_body_head">General Loan Amortization Worksheet</span></p>
